@@ -6,7 +6,7 @@ Title: Welcome
 {% for post in site.posts %}
 
 <article class='post'>
-  <div class="post-date"><small>{{ page.date | date: "%-d %B %Y" }}</small></div>
+  <div class="post-date"><small>{{ post.date | date: "%-d %B %Y" }}</small></div>
   <h1 class='post-title'>
     <a href="{{ site.path }}{{ post.url }}">
       {{ post.title }}

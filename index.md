@@ -3,10 +3,6 @@ layout: default
 Title: Welcome
 ---
 
-Main page content goes in here.
-
-[Link to another page](./another-page.html).
-
 {% for post in site.posts %}
 
 <article class='post'>

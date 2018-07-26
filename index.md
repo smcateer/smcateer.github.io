@@ -15,7 +15,7 @@ Main page content goes in here.
       {{ post.title }}
     </a>
   </h1>
-  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+  <div class="post-date">{{ post.date | date: "%-d %B %Y" }}</div>
   {{ post.content }}
 </article>
 

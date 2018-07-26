@@ -19,4 +19,6 @@ Title: Welcome
   <small>tags: <em>{{ post.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
 
+<hr/>
+
 {% endfor %}

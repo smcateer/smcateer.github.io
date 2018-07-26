@@ -2,7 +2,7 @@
 layout: default
 Title: Welcome
 ---
-<hr style="border-top: dotted 1px;" />
+<hr/>
 
 {% for post in site.posts %}
 
@@ -20,6 +20,6 @@ Title: Welcome
   <small>tags: <em>{{ post.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
 
-<hr style="border-top: dotted 1px;" />
+<hr/>
 
 {% endfor %}

@@ -15,4 +15,8 @@ Title: Welcome
   {{ post.content }}
 </article>
 
+{% if post.tags %}
+  <small>tags: <em>{{ post.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
+
 {% endfor %}

@@ -17,7 +17,7 @@ Title: Welcome
 </article>
 
 {% if post.tags %}
-  <small>tags: <em>{{ post.tags | join: "</em> - <em>" }}</em></small>
+  <p><small>tags: <em>{{ post.tags | join: "</em> - <em>" }}</em></small></p>
 {% endif %}
 
 <hr/>

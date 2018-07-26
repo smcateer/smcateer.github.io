@@ -7,7 +7,7 @@ tags: ["note", "code", "gotcha", "tip", "sql", "sap hana", ]
 
 Just a quick note of gotcha that I have fallen into a couple of times. (We are in the SAP HANA dialect of SQL here.)
 
-The between operator is syntactic sugar: `COL between LOW and HIGH` is equivalent to `(COL >= LOW) and (COL <= HIGH)`
+The between operator is syntactic sugar: `COL between LOW and HIGH` is equivalent to `(COL >= LOW) and (COL <= HIGH)`. Consider the following query:
 
 ``` sql
 select * from
@@ -37,9 +37,13 @@ Note that `2018-09-03` was excluded, which was not the intention.
 
 These versions will have the intended behaviour (I prefer the latter)
 
-1. Truncate the column (may be computationally expensive): `where left(dte, 7) between '2018-08' and '2018-09'`
+1. Truncate the column (may be computationally expensive):
 
-2. Be explicit. Note that the upper bound is not the last-in-range, but the first out-of-range: `where dte >= '2018-08' and dte < '2018-10'`
+`where left(dte, 7) between '2018-08' and '2018-09'`
+
+2. Be explicit. Note that the upper bound is not the last-in-range, but the first out-of-range:
+
+`where dte >= '2018-08' and dte < '2018-10'`
 
 The other advantage of 2. is that it works at arbitrary levels of detail, e.g.
 

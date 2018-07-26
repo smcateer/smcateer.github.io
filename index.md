@@ -10,12 +10,12 @@ Main page content goes in here.
 {% for post in site.posts %}
 
 <article class='post'>
+  <div class="post-date"><small>{{ page.date | date: "%-d %B %Y" }}</small></div>
   <h1 class='post-title'>
     <a href="{{ site.path }}{{ post.url }}">
       {{ post.title }}
     </a>
   </h1>
-  <div class="post-date">{{ post.date | date: "%-d %B %Y" }}</div>
   {{ post.content }}
 </article>
 

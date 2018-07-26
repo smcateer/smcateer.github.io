@@ -4,12 +4,15 @@ layout: default
 
 <hr/>
 
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
-<h1>{{ page.title }}</h1>
+<article class='page'>
+  <div class="page-date"><small>{{ page.date | date: "%-d %B %Y" }}</small></div>
+  <h1 class='page-title'>
+      {{ page.title }}
+  </h1>
+  {{ content }}
+</article>
 
-{{content}}
-
-{% if page.tags %}
+{% if post.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
 

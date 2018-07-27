@@ -1,5 +1,5 @@
 # Personal homepage
 
-(Created as a fork of https://github.com/pages-themes/minimal)
+URL: https://smcateer.github.io/
 
-Licence for original content: https://creativecommons.org/licenses/by-nc-sa/4.0/
+(Created as a fork of https://github.com/pages-themes/minimal)

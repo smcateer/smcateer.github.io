@@ -9,7 +9,7 @@ Just a quick note of gotcha that I have fallen into a couple of times. (We are i
 
 **Firstly**: In the SAP HANA SQL dialect, the between operator is syntactic sugar: `COL between LOW and HIGH` is equivalent to `(COL >= LOW) and (COL <= HIGH)` (note the non-strict inequality on the upper bound of the range). In other dialects this upper bound is strict, which can be helpful (discussed below), but on the other hand the ISO-compliant behaviour is a non-strict upper bound (`<=`). So, you need to be careful about what the dialect you have at hand is doing.
 
-**Secondly**: Lexicographic ordering of strings dictates that: </br> `'2018-09-03 23:34:12' > '2018-09-03' > '2018-09' > '2018'`
+**Secondly**: Lexicographic ordering of strings dictates that: <br/> `'2018-09-03 23:34:12' > '2018-09-03' > '2018-09' > '2018'`
 
 Consider the following query:
 

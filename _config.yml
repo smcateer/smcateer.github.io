@@ -2,5 +2,5 @@ title: Stephen McAteer
 logo: /assets/img/logo.png
 description: Personal homepage of Steve McAteer, record of projects, presentations and publications.
 show_downloads: false
-google_analytics:
+google_analytics: UA-122991715-1
 theme: jekyll-theme-minimal

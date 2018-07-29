@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gotcha: SQL `between` predicate"
+title: "Gotcha: SQL 'between' predicate"
 date: 2018-07-26
 tags: ["note", "code", "gotcha", "tip", "sql", "sap hana", ]
 ---

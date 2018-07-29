@@ -14,7 +14,9 @@ Just a quick note of gotcha that I have fallen into a couple of times. (We are i
 Consider the following query:
 
 ``` sql
+-- A test of the 'between' predicate
 select * from
+    -- A table of dates in two formats
     (
     (select '2018-07-01' as dte, 'full date' as info from dummy)
     union all (select '2018-08-02' as dte, 'full date' as info from dummy)
@@ -25,6 +27,7 @@ select * from
     union all (select '2018-09' as dte, 'month only' as info from dummy)
     union all (select '2018-10' as dte, 'month only' as info from dummy)
     )
+-- The 'between' predicate is inclusive, so we are hoping to see both months in the results
 where dte between '2018-08' and '2018-09'
 ;
 ```

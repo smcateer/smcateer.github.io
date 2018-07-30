@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Enhanced AFL ladder"
-date: 2018-07-30
+date: 2018-07-29
 tags: ["python", "afl", "ladder", "sport", ]
 ---
 

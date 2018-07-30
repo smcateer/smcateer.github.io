@@ -11,9 +11,9 @@ At the time of publication, [Essendon](http://www.essendonfc.com.au/) are clearl
 
 [This code](https://github.com/smcateer/super_ladder) can be used to calculate a version of the ladder which takes these effects into account. It does this by allowing you to exclude all but the most recent rounds, and scaling the points you get for a win by the quality of your opposition (using the team's percentage as a proxy for quality).
 
-The points you get for a win are \\[4 \times r^p \\] for a win, and \\[2 \times r^p \\] for a loss, where \\[r\\] is the opposition's percentage (as calculated for the standard ladder) and \\[p\\] is a parameter.
+The points you get for a win are \\(4 \times r^p \\) for a win, and \\(2 \times r^p \\) for a loss, where \\(r\\) is the opposition's percentage (as calculated for the standard ladder) and \\(p\\) is a parameter.
 
-Setting \\[p = \\] corresponds to the standard ladder, setting \\[p = 1\\] means beating two teams with 50% is equivalent to beating one team with 100%. I think \\[p = 2\\] is a good value, it means that you need to beat 2 teams with 71% (or 4 teams with 50%) to get the points equivalent to beating one team with 100%.
+Setting \\(p = 0\\) corresponds to the standard ladder, setting \\(p = 1\\) means beating two teams with 50% is equivalent to beating one team with 100%. I think \\(p = 2\\) is a good value, it means that you need to beat 2 teams with 71% (or 4 teams with 50%) to get the points equivalent to beating one team with 100%.
 
 Anyway, here are the results (at the end of round 19, 2018):
 

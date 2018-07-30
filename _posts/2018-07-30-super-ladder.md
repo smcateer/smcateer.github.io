@@ -11,9 +11,9 @@ At the time of publication, [Essendon](http://www.essendonfc.com.au/) are clearl
 
 [This code](https://github.com/smcateer/super_ladder) can be used to calculate a version of the ladder which aims takes these effects into account. It does this by allowing you to exclude all but the most recent rounds (the parameter `rnd_cnt`), and scaling the points you get for a win by the quality of your opposition, using the opposing team's *percentage* as a proxy for quality (the parameter `scale_power`).
 
-The points you get for a win are \\(4 r^p \\) for a win, and \\(2 r^p \\) for a draw, where \\(r\\) is the opposition's percentage (as calculated on a standard ladder as a number between 0 and 1) and \\(p\\) is a parameter used to adjust the impact of the opposition's percentage on the points awarded.
+The points you get for a win are \\( 4 r^p \\) for a win, and \\( 2 r^p \\) for a draw, where \\( r \\) is the opposition's percentage (as calculated on a standard ladder as a number between 0 and 1) and \\( p \\) is a parameter used to adjust the impact of the opposition's percentage on the points awarded.
 
-Setting \\(p = 0\\) corresponds to the standard ladder (i.e. \\(r^p = 1\\)), setting \\(p = 1\\) means that beating two teams with \\(r = 50\%\\) is equivalent to beating one team with \\(r = 100\%\\). I think \\(p = 2\\) is a good value, it means that you need to beat 2 teams with \\(r = 71\%\\) (or 4 teams with \\(r = 50\%\\)) to get the points equivalent to beating one team with \\(r = 100\%\\).
+Setting \\( p \\) = 0 corresponds to the standard ladder (i.e. \\( r^p \\) = 1), setting \\( p \\) = 1 means that beating two teams with \\( r \\) = 50% is equivalent to beating one team with \\( r \\) = 100%. I think \\( p \\) = 2 is a good value, it means that you need to beat 2 teams with \\( r \\) = 71% (or 4 teams with \\( r \\) = 50%) to get the points equivalent to beating one team with \\( r \\) = 100%.
 
 Anyway, below are the results (at the end of round 19, 2018).
 

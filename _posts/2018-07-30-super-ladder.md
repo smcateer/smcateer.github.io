@@ -121,3 +121,5 @@ Finally, let's include both effects (recent form and opposition quality):
 That's the result I wanted! Essendon on top where they belong.
 
 If this is a fair indication of the current form in the AFL, Essendon may end up rueing their slow start to the season. Pretty tough to be spectators in a finals series when you look like you could have had an impact. 
+
+BTW, there's not much original thought here ... there are online interactive sites that allow calculation of form ladders (although I didn't see any that allow for opposition quality). [This](http://formladder.com.au/afl/) one even allows you to pile together multiple seasons into a single ladder (very interesting).

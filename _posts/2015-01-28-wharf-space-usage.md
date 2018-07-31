@@ -6,7 +6,7 @@ permalink: /wharf-space-usage/
 published: true
 tags: ["analytics", "report", "operations research", "defence", "publication", ]
 ---
-[<img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Darwin%27s_Stokes_Hill_Wharf_January_2010.jpg" alt="Patrol boats alongside in Darwin. Image credit: Ken Hodge" align="right" width="450px"/>](https://commons.wikimedia.org/wiki/File:Darwin's_Stokes_Hill_Wharf_January_2010.jpg)
+[!["Patrol boats alongside in Darwin. Image credit: Ken Hodge"](https://upload.wikimedia.org/wikipedia/commons/6/6d/Darwin%27s_Stokes_Hill_Wharf_January_2010.jpg "Patrol boats alongside in Darwin. Image credit: Ken Hodge"){:height="700px" width="400px" class="img-responsive"}](https://commons.wikimedia.org/wiki/File:Darwin's_Stokes_Hill_Wharf_January_2010.jpg)
 
 Justin D. Beck, Stephen G. Mc Ateer and Timothy J. Surendonk
 

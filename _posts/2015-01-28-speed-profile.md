@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HMAS Glenelg speed profiling using operational categorisation: analysis details"
+title: "HMAS Glenelg speed profiling using operational categorisation: analysis details (report)"
 date: 2015-01-28
 permalink: /speed-profile/
 published: true

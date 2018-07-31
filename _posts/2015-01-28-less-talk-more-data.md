@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Supporting Defence decision making with big data: less talk, more data!"
+title: "Supporting Defence decision making with big data: less talk, more data! (discussion paper)"
 date: 2015-01-28
 permalink: /less-talk-more-data/
 published: true

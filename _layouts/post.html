@@ -15,7 +15,9 @@ layout: default
   {{ content }}
       </td>
       <td>
-        Something!
+        <a href="{{ page.img_src }}">
+          <img src="{{ page.img }}" alt={{ page.img_alt }}/>
+        </a>
       </td>
     </tr>
   </table>

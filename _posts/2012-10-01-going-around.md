@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Going around in circles: a heuristic method for path categorisation"
-date: 2015-01-28
+date: 2012-10-01
 permalink: /going-around/
 published: true
 img: https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/US_Navy_090210-N-9671T-144_A_port_security_boat_patrols_the_waters_near_Kuwait_Naval_Base.jpg/640px-US_Navy_090210-N-9671T-144_A_port_security_boat_patrols_the_waters_near_Kuwait_Naval_Base.jpg

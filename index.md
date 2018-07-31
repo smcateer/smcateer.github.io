@@ -5,34 +5,24 @@ Title: Welcome
 <hr/>
 
 {% for post in site.posts %}
+  <article class='post'>
+    {% if post.img %}
+      <a href="{{ post.img_src }}">
+        <img src="{{ post.img }}" alt="{{ post.img_alt }}" style="float:right;width:450px;padding:5px;" />
+      </a>
+    {% endif %}
+    <div class="post-date"><small>{{ post.date | date: "%-d %B %Y" }}</small></div>
+    <h1 class='post-title'>
+      <a href="{{ site.path }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+    {{ post.content }}
+  </article>
 
-<article class='post'>
-  <table>
-    <tr>
-      <td style="border-bottom-style:none" valign="top">
-        <div class="post-date"><small>{{ post.date | date: "%-d %B %Y" }}</small></div>
-        <h1 class='post-title'>
-          <a href="{{ site.path }}{{ post.url }}">
-            {{ post.title }}
-          </a>
-        </h1>
-        {{ post.content }}
-      </td>
-      {% if post.img %}
-      <td  style="border-bottom-style:none" width="450px" valign="top">
-        <a href="{{ post.img_src }}">
-          <img src="{{ post.img }}" alt="{{ post.img_alt }}" />
-        </a>
-      </td>
-      {% endif %}
-    </tr>
-  </table>
-</article>
+  {% if post.tags %}
+    <p><small>tags: <em>{{ post.tags | join: "</em> - <em>" }}</em></small></p>
+  {% endif %}
 
-{% if post.tags %}
-  <p><small>tags: <em>{{ post.tags | join: "</em> - <em>" }}</em></small></p>
-{% endif %}
-
-<hr/>
-
+  <hr/>
 {% endfor %}

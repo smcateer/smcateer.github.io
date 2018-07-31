@@ -7,7 +7,7 @@ layout: default
 <article class='page'>
   <table>
     <tr>
-      <td style="border-bottom-style:none">
+      <td style="border-bottom-style:none" valign="top">
         <div class="page-date"><small>{{ page.date | date: "%-d %B %Y" }}</small></div>
         <h1 class='page-title'>
           {{ page.title }}
@@ -15,7 +15,7 @@ layout: default
         {{ content }}
       </td>
       {% if page.img %}
-      <td width="450px" style="border-bottom-style:none">
+      <td width="450px" style="border-bottom-style:none" valign="top">
         <a href="{{ page.img_src }}">
           <img src="{{ page.img }}" alt="{{ page.img_alt }}" />
         </a>

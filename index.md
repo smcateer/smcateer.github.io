@@ -9,7 +9,7 @@ Title: Welcome
 <article class='post'>
   <table>
     <tr>
-      <td style="border-bottom-style:none">
+      <td style="border-bottom-style:none" valign="top">
         <div class="post-date"><small>{{ post.date | date: "%-d %B %Y" }}</small></div>
         <h1 class='post-title'>
           <a href="{{ site.path }}{{ post.url }}">
@@ -19,7 +19,7 @@ Title: Welcome
         {{ post.content }}
       </td>
       {% if post.img %}
-      <td  style="border-bottom-style:none" width="450px">
+      <td  style="border-bottom-style:none" width="450px" valign="top">
         <a href="{{ post.img_src }}">
           <img src="{{ post.img }}" alt="{{ post.img_alt }}" />
         </a>

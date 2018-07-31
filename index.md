@@ -7,7 +7,7 @@ Title: Welcome
 {% for post in site.posts %}
 
 <article class='post'>
-  <table>
+  <table border="0">
     <tr>
       <td>
   <div class="post-date"><small>{{ post.date | date: "%-d %B %Y" }}</small></div>

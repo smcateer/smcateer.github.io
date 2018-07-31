@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Usage of wharf space in Cairns and Darwin by RAN vessels"
+title: "Usage of wharf space in Cairns and Darwin by RAN vessels (report)"
 date: 2015-01-28
 permalink: /wharf-space-usage/
 published: true

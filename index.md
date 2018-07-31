@@ -20,9 +20,10 @@ Title: Welcome
     {{ post.content }}
   </article>
 
-  {% if post.tags %}
-    <p><small>tags: <em>{{ post.tags | join: "</em> - <em>" }}</em></small></p>
-  {% endif %}
+{% if post.tags %}
+<p><small>tags: <em>{{ post.tags | join: "</em> - <em>" }}</em></small></p>
+{% endif %}
 
-  <hr/>
+<hr/>
+
 {% endfor %}

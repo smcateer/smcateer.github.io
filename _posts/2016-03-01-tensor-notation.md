@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The right notation for tensors (presentation)"
-date: 2015-01-28
+date: 2016-03-01
 permalink: /tensor-notation/
 published: true
 tags: ["tensor algebra", "operations research", "defence", "presentation", ]

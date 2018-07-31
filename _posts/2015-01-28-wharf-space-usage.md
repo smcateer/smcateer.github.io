@@ -4,7 +4,7 @@ title: "Usage of wharf space in Cairns and Darwin by RAN vessels"
 date: 2015-01-28
 permalink: /wharf-space-usage/
 published: true
-img: https://upload.wikimedia.org/wikipedia/commons/6/6d/Darwin%27s_Stokes_Hill_Wharf_January_2010.jpg
+img: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Darwin%27s_Stokes_Hill_Wharf_January_2010.jpg/640px-Darwin%27s_Stokes_Hill_Wharf_January_2010.jpg
 img_alt: "Patrol boats alongside in Darwin. Image credit: Ken Hodge"
 img_src: https://commons.wikimedia.org/wiki/File:Darwin's_Stokes_Hill_Wharf_January_2010.jpg
 tags: ["analytics", "report", "operations research", "defence", "publication", ]

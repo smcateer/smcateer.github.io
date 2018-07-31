@@ -14,11 +14,13 @@ layout: default
   </h1>
   {{ content }}
       </td>
-      <td>
+      {% if page.img %}
+      <td width="450px">
         <a href="{{ page.img_src }}">
-          <img src="{{ page.img }}" alt="{{ page.img_alt }}" width="450px" />
+          <img src="{{ page.img }}" alt="{{ page.img_alt }}" />
         </a>
       </td>
+      {% endif %}
     </tr>
   </table>
 </article>

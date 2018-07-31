@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Going around in circles: a heuristic method for path categorisation"
+title: "Going around in circles: a heuristic method for path categorisation (report)"
 date: 2012-10-01
 permalink: /going-around/
 published: true

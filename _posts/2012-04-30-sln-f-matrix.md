@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "On factorizing \\(F\\)-matrices in \\(\mathcal{Y}(sl_n)\\) and \\(\mathcal{U}_q(\widehat{sl}_n)\\) spin chains"
+title: "On factorizing \\(F\\)-matrices in \\(\\mathcal{Y}(sl_n)\\) and \\(\\mathcal{U}_q(\\widehat{sl}_n)\\) spin chains"
 date: 2012-04-30
 permalink: /sln-f-matrix/
 published: true

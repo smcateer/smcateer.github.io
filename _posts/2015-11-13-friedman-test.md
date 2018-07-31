@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Friedman Test"
+title: "The Friedman Test (presentation)"
 date: 2015-11-13
 permalink: /friedman-test/
 published: true

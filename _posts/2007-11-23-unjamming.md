@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unjamming as structural instability"
+title: "Unjamming as structural instability (honours thesis)"
 date: 2007-11-23
 permalink: /unjamming/
 published: true

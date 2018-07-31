@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The right notation for tensors"
+title: "The right notation for tensors (presentation)"
 date: 2015-01-28
 permalink: /tensor-notation/
 published: true

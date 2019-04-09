@@ -28,12 +28,12 @@ Also also note that the right hand side has \\(b-6\\) in the denominator, so for
 We can therefore proceed by brute-force and check all allowed values of \\(b\\):
 {% raw %}
 \begin{align}
-b = 7, \frac{b}{b-6} &= \frac{7}{1} = 7 \\\\\\\\
-b = 8, \frac{b}{b-6} &= \frac{8}{2} = 4 \\\\\\\\
-b = 9, \frac{b}{b-6} &= \frac{9}{3} = 3 \\\\\\\\
-b = 10, \frac{b}{b-6} &= \frac{10}{4} \\\\\\\\
-b = 11, \frac{b}{b-6} &= \frac{11}{5} \\\\\\\\
-b = 12, \frac{b}{b-6} &= \frac{12}{6} = 2
+b = 7, g = \frac{b}{b-6} &= \frac{7}{1} = 7 \\\\\\\\
+b = 8, g = \frac{b}{b-6} &= \frac{8}{2} = 4 \\\\\\\\
+b = 9, g = \frac{b}{b-6} &= \frac{9}{3} = 3 \\\\\\\\
+b = 10, g = \frac{b}{b-6} &= \frac{10}{4} \\\\\\\\
+b = 11, g = \frac{b}{b-6} &= \frac{11}{5} \\\\\\\\
+b = 12, g = \frac{b}{b-6} &= \frac{12}{6} = 2
 \end{align}
 {% endraw %}
 Which gives us the solutions noted above, plus one new one 2-12-24 (the cases \\(b=10,11\\) don't provide us with whole goals). And that's it. QED :)

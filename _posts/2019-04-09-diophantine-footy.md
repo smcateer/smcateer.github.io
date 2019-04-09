@@ -29,10 +29,13 @@ We can therefore proceed by brute-force and check all allowed values of \\(b\\):
 {% raw %}
 \begin{align}
 b = 7, \frac{b}{b-6} &= \frac{7}{1} = 7 \\\\\\\\
-b = 7, \frac{b}{b-6} &= \frac{7}{1} = 7 \\\\\\\\
-b = 7, \frac{b}{b-6} &= \frac{7}{1} = 7 \\\\\\\\
-b = 7, \frac{b}{b-6} &= \frac{7}{1} = 7 \\\\\\\\
-b = 7, \frac{b}{b-6} &= \frac{7}{1} = 7 \\\\\\\\
-b = 7, \frac{b}{b-6} &= \frac{7}{1} = 7
+b = 8, \frac{b}{b-6} &= \frac{8}{2} = 4 \\\\\\\\
+b = 9, \frac{b}{b-6} &= \frac{9}{3} = 3 \\\\\\\\
+b = 10, \frac{b}{b-6} &= \frac{10}{4} \\\\\\\\
+b = 11, \frac{b}{b-6} &= \frac{11}{5} \\\\\\\\
+b = 12, \frac{b}{b-6} &= \frac{12}{6} = 2
 \end{align}
 {% endraw %}
+Which gives us the solutions noted above, plus one new one 2-12-24 (the cases \\(b=10,11\\) don't provide us with whole goals). And that's it. QED :)
+
+There are actually a surprising number of solutions here. I think this is a bit coincidental, how would this work out if a goal was worth a different number of points (5, 7, 8, ...)?

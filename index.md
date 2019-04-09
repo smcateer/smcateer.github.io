@@ -25,5 +25,4 @@ Title: Welcome
 {% endif %}
 
 <hr/>
-
 {% endfor %}

@@ -28,10 +28,10 @@ Also also note that the right hand side has \\(b-6\\) in the denominator, so for
 We can therefore proceed by brute-force and check all allowed values of \\(b\\):
 {% raw %}
 \begin{align}
-b = 7, \frac{b}{b-6} = \frac{7}{1} = 7 {\text soln: 7-7-49} \\\\\\\\
-b = 7, \frac{b}{b-6} = \frac{7}{1} = 7 {\text soln: 7-7-49} \\\\\\\\
-b = 7, \frac{b}{b-6} = \frac{7}{1} = 7 {\text soln: 7-7-49} \\\\\\\\
-b = 7, \frac{b}{b-6} = \frac{7}{1} = 7 {\text soln: 7-7-49} \\\\\\\\
-b = 7, \frac{b}{b-6} = \frac{7}{1} = 7 {\text soln: 7-7-49} \\\\\\\\
-b = 7, \frac{b}{b-6} = \frac{7}{1} = 7 {\text soln: 7-7-49}
+b = 7, \frac{b}{b-6} &= \frac{7}{1} = 7 \\\\\\\\
+b = 7, \frac{b}{b-6} &= \frac{7}{1} = 7 \\\\\\\\
+b = 7, \frac{b}{b-6} &= \frac{7}{1} = 7 \\\\\\\\
+b = 7, \frac{b}{b-6} &= \frac{7}{1} = 7 \\\\\\\\
+b = 7, \frac{b}{b-6} &= \frac{7}{1} = 7 \\\\\\\\
+b = 7, \frac{b}{b-6} &= \frac{7}{1} = 7
 {% endraw %}

@@ -14,10 +14,10 @@ The next day, my dad emails me with two other solutions 4-8-32 and 3-9-27, and p
 So we are looking for cases when
 {% raw %}
 \begin{align}
-& 6g + b &= gb \\\\\\\\
-&\Rightarrow b &= gb - 6g  \\\\\\\\
-& &= g(b-6) \\\\\\\\
-&\Rightarrow \frac{b}{b - 6} &= g
+6g + b &= gb \\\\\\\\
+\Rightarrow b &= gb - 6g  \\\\\\\\
+&= g(b-6) \\\\\\\\
+\Rightarrow \frac{b}{b - 6} &= g
 \end{align}
 {% endraw %}
 (where \\(g\\) is the number of goals and \\(b\\) is the number of behinds).

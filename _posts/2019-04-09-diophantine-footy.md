@@ -37,6 +37,6 @@ b = 12, g = \frac{b}{b-6} &= \frac{12}{6} = 2
 Which gives us the solutions noted above, plus one new one 2-12-24 (the cases \\(b=10,11\\) don't provide us with whole goals). And that's it. QED :)
 
 Here is a plot of goals versus behinds, where you can see the integer solutions:
-![Plot of goals versus behinds.](assets/img/footy-score-plot.png "Plot of goals versus behinds.")
+![Plot of goals versus behinds.](../assets/img/footy-score-plot.png "Plot of goals versus behinds.")
 
 (I think) there are actually a surprising number of solutions here. I think this is a bit coincidental, how would this work out if a goal was worth a different number of points (5, 7, 8, ...)?

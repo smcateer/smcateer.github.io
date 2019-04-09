@@ -34,4 +34,5 @@ b = 7, \frac{b}{b-6} &= \frac{7}{1} = 7 \\\\\\\\
 b = 7, \frac{b}{b-6} &= \frac{7}{1} = 7 \\\\\\\\
 b = 7, \frac{b}{b-6} &= \frac{7}{1} = 7 \\\\\\\\
 b = 7, \frac{b}{b-6} &= \frac{7}{1} = 7
+\end{align}
 {% endraw %}

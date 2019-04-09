@@ -14,9 +14,9 @@ The next day, my dad emails me with two other solutions 4-8-32 and 3-9-27, and p
 So we are looking for cases when
 {% raw %}
 \begin{align}
-gb &= 6g + b \\\\
-\Rightarrow gb - 6g &= g(b-6) \\\\
-&= b \\
+gb &= 6g + b \\\\\\\\
+\Rightarrow gb - 6g &= g(b-6) \\\\\\\\
+&= b \\\\\\\\
 \Rightarrow g &= \frac{b}{b - 6}
 \end{align}
 {% endraw %}

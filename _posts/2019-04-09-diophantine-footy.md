@@ -15,9 +15,7 @@ So we are looking for cases when
 {% raw %}
 \begin{align}
 6g + b &= gb \\\\\\\\
-\Rightarrow b &= gb - 6g  \\\\\\\\
-&= g(b-6) \\\\\\\\
-\Rightarrow \frac{b}{b - 6} &= g
+\Rightarrow g &= \frac{b}{b - 6}
 \end{align}
 {% endraw %}
 (where \\(g\\) is the number of goals and \\(b\\) is the number of behinds).

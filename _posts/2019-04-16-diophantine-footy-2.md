@@ -9,12 +9,12 @@ tags: ["footy", "australian rules football", "maths", "diophantine equations", ]
 
 BTW, this is a follow up to [diophantine footy](https://smcateer.github.io/diophantine-footy/) ... read that first for context.
 
-So I was thinking about what would happen if a goal was worth an arbitrary number of points (\\(n\\)) (rather than 6) - the number of solutions for \\(n = 6\\) struck me as a bit high. So I scratched together the following bit of Python to count solutions.
+So I was thinking about what would happen if a goal was worth an arbitrary number of points (\\(p\\)) (rather than 6) - the number of solutions for \\(p = 6\\) struck me as a bit high. So I scratched together the following bit of Python to count solutions.
 
 ``` python
-# we want to consider a range of points per goal (ppg) (regular footy is 6)
-for ppg in range(1,15):
-    print('Points per goal: {:d}\n----'.format(ppg))
+# we want to consider a range of points per goal (p) (regular footy is 6)
+for p in range(1,15):
+    print('Points per goal: {:d}\n----'.format(p))
     # a counter for the solutions
     cnt = 0
     # number of goals
@@ -22,7 +22,7 @@ for ppg in range(1,15):
         # number of points
         for b in range(1,100):
             # this is the condition we want to satisfy
-            if b*g == b + ppg*g:
+            if b*g == b + p*g:
                 cnt += 1
                 print('Soln: {:d}.{:d} ({:d})'.format(g, b, g*b))
     print('Number of solns: {:d}\n'.format(cnt))
@@ -30,7 +30,7 @@ for ppg in range(1,15):
 
 And here are the results tabulated:
 
-| \\(n\\)             | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 |
+| \\(p\\)             | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 |
 | :---                |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | number of solutions | 1  | 2  | 2  | 3  | 2  | 4  | 2  | 4  | 3  | 4  | 2  | 6  | 2  | 4  |
 

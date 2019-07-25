@@ -1,17 +1,56 @@
 ---
 layout: post
-title: "Diophantine footy 2: the reckoning"
-date: 2019-04-16
+title: "Diophantine footy 2: generalised footy"
+date: 2019-07-25
 permalink: /diophantine-footy-2/
-published: false
+published: true
 tags: ["footy", "australian rules football", "maths", "diophantine equations", ]
 ---
 
 BTW, this is a follow up to [diophantine footy](https://smcateer.github.io/diophantine-footy/) ... read that first for context.
 
-So I was thinking about what would happen if a goal was worth some other number of points (\\(n\\)) (rather than 6) - the number of solutions struck me as oddly high. So I recreated the plot for different goal values (\\(g = b/(b-n)\\)) and started counting solutions. Here's what I got:
+So I was thinking about what would happen if a goal was worth an arbitrary number of points (\\(n\\)) (rather than 6) - the number of solutions for \\(n = 6\\) struck me as a bit high. So I scratched together the following bit of Python to count solutions.
+
+``` python
+# we want to consider a range of points per goal (ppg) (regular footy is 6)
+for ppg in range(1,15):
+    print('Points per goal: {:d}\n----'.format(ppg))
+    # a counter for the solutions
+    cnt = 0
+    # number of goals
+    for g in range(1,100):
+        # number of points
+        for b in range(1,100):
+            # this is the condition we want to satisfy
+            if b*g == b + ppg*g:
+                cnt += 1
+                print('Soln: {:d}.{:d} ({:d})'.format(g, b, g*b))
+    print('Number of solns: {:d}\n'.format(cnt))
+```
+
+And here are the results tabulated:
 
 | \\(n\\) | number of solutions |
 |---------|---------------------|
 | 1       | 1                   |
 | 2       | 2                   |
+| 3       | 2                   |
+| 4       | 3                   |
+| 5       | 2                   |
+| 6       | 4                   |
+| 7       | 2                   |
+| 8       | 4                   |
+| 9       | 3                   |
+| 10      | 4                   |
+| 11      | 2                   |
+| 12      | 6                   |
+| 13      | 2                   |
+| 14      | 4                   |
+
+We now have two options. One, stare at the sequence and hope our brain clicks, or two, [to the OEIS!!!][1] (BTW, if you get too many results from the OEIS, just calculate more terms and search again). (BTW 2, if you ever generate a sequence that does not appear on the OEIS, submit it and go down in history).
+
+The top hit in the OEIS was the number of divisors of \\(n\\), this is a great clue to what is going on. Let's look at the generalised version of the equation we are trying to solve:
+
+\\[x\\]
+
+[1]: https://oeis.org/search?q=1%2C+2%2C+2%2C+3%2C+2%2C+4%2C+2%2C+4%2C+3%2C+4%2C+2%2C+6%2C+2%2C+4&language=english&go=Search

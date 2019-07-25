@@ -3,6 +3,7 @@ layout: post
 title: "Diophantine footy 2: generalised footy"
 date: 2019-07-25
 permalink: /diophantine-footy-2/
+img: https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/2017_AFL_Grand_Final_panorama_during_national_anthem.jpg/640px-2017_AFL_Grand_Final_panorama_during_national_anthem.jpg
 published: true
 tags: ["footy", "australian rules football", "maths", "diophantine equations", ]
 ---

@@ -37,8 +37,10 @@ And here are the results:
 
 We now have two options. One, stare at the sequence and hope our brain clicks, or two, [to the OEIS!!!][1] (BTW, if you get too many results from the OEIS, just calculate more terms and search again). (BTW 2, if you ever generate a sequence that does not appear on the OEIS, submit it and go down in history).
 
-The top hit in the OEIS was the number of divisors of \\(n\\), this is a great clue to what is going on. Let's look at the generalised version of the equation we are trying to solve:
+The top hit in the OEIS was the number of divisors of \\(n\\), this is a great clue to what is going on.
 
+Now we want to solve
 \\[pg+b = bg\\]
+where \\(p\\) is the points per goal, \\(g\\) is the number of goals and \\(b\\) is the number of behinds. Note that this is a generalized version of the equation from the previous post, where we now have \\(p\\) instead of 6.
 
 [1]: https://oeis.org/search?q=1%2C+2%2C+2%2C+3%2C+2%2C+4%2C+2%2C+4%2C+3%2C+4%2C+2%2C+6%2C+2%2C+4&language=english&go=Search

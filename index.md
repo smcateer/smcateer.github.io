@@ -2,6 +2,17 @@
 layout: default
 Title: Welcome
 ---
+<ul>
+
+</ul>
+
+{% for post in site.posts %}
+<li>
+      <a href="{{ site.path }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+{% endfor %}
+
 <hr/>
 
 {% for post in site.posts %}

@@ -28,7 +28,7 @@ for p in range(1,15):
     print('Number of solns: {:d}\n'.format(cnt))
 ```
 
-And here are the results tabulated:
+And here are the results:
 
 | \\(p\\)             | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 |
 | :---                |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|

@@ -3,6 +3,7 @@ layout: post
 title: "Diophantine footy"
 date: 2019-04-09
 permalink: /diophantine-footy/
+img: https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/AriahParkFootyScoreboard.JPG/640px-AriahParkFootyScoreboard.JPG
 published: true
 tags: ["footy", "australian rules football", "maths", "diophantine equations", ]
 ---

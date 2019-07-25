@@ -30,27 +30,15 @@ for ppg in range(1,15):
 
 And here are the results tabulated:
 
-| \\(n\\) | number of solutions |
-|---------|---------------------|
-| 1       | 1                   |
-| 2       | 2                   |
-| 3       | 2                   |
-| 4       | 3                   |
-| 5       | 2                   |
-| 6       | 4                   |
-| 7       | 2                   |
-| 8       | 4                   |
-| 9       | 3                   |
-| 10      | 4                   |
-| 11      | 2                   |
-| 12      | 6                   |
-| 13      | 2                   |
-| 14      | 4                   |
+| \\(n\\)             | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 |
+| :---                |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| number of solutions | 1  | 2  | 2  | 3  | 2  | 4  | 2  | 4  | 3  | 4  | 2  | 6  | 2  | 4  |
+
 
 We now have two options. One, stare at the sequence and hope our brain clicks, or two, [to the OEIS!!!][1] (BTW, if you get too many results from the OEIS, just calculate more terms and search again). (BTW 2, if you ever generate a sequence that does not appear on the OEIS, submit it and go down in history).
 
 The top hit in the OEIS was the number of divisors of \\(n\\), this is a great clue to what is going on. Let's look at the generalised version of the equation we are trying to solve:
 
-\\[x\\]
+\\[pg+b = bg\\]
 
 [1]: https://oeis.org/search?q=1%2C+2%2C+2%2C+3%2C+2%2C+4%2C+2%2C+4%2C+3%2C+4%2C+2%2C+6%2C+2%2C+4&language=english&go=Search

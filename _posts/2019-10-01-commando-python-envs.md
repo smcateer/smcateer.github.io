@@ -3,7 +3,7 @@ layout: post
 title: "Commando python envs"
 date: 2019-10-01
 permalink: /commando-python-envs/
-img: https://commons.wikimedia.org/wiki/File:PEO_ANAVS-6_NVG.jpg
+img: https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/PEO_ANAVS-6_NVG.jpg/640px-PEO_ANAVS-6_NVG.jpg
 published: true
 tags: ["coding", "python", "environments", ]
 ---

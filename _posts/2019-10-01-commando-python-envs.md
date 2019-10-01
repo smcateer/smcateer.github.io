@@ -12,13 +12,13 @@ Just a quick note on my approach to environments for data analytics (without und
 
 There *are* two very good reasons to use envs for your analytics work:
 
-1. **Known environment**: To make sure your code runs again when you come back to it after some time has passes (and some packages have changed). To make sure that your results are reproducable.
+1. **Known environment**: To make sure your code runs again when you come back to it after some time has passes (and some packages have changed). To make sure that your results are reproducible.
 1. **Safe environment**: To have a sandbox in which you can screw around with your Python environment without the risk of ruining your entire life.
 
 Known environment
 ---
 
-This is really important for production or critical code, but in the context of data analytics it's mostly just a potential soruce of annoyance. Usually you will just need to adjust your code to make it work again. But then again, that might take a lot of time. It may also have an impact on the reproducability of your results, which is a more serious concern.
+This is really important for production or critical code, but in the context of data analytics it's mostly just a potential source of annoyance. Usually you will just need to adjust your code to make it work again. But then again, that might take a lot of time. It may also have an impact on the reproducibility of your results, which is a more serious concern.
 
 But if you are doing envs *right* to deal with this, you will find yourself maintaining lots of envs (perhaps > 1 per project you have *ever* worked on). Also, at what point does scratching out a quick calculation become something more, and you need to *do the env thing*? Ever had the oh-crap-I-better-set-up-an-env-for-this thought?
 
@@ -41,4 +41,4 @@ This approach is very light-touch, but provides a way of making sure your code w
 Safe environment
 ---
 
-For experimentaion with new packages, or odd versions of packages, or packages with strange dependencies, I would recommend spinning-off a new sandbox env. Once you are confident the packages are not going to bork everything, you can consider rolling them into your main working dev env.
+For experimentation with new packages, or odd versions of packages, or packages with strange dependencies, I would recommend spinning-off a new sandbox env. Once you are confident the packages are not going to bork everything, you can consider rolling them into your main working dev env.

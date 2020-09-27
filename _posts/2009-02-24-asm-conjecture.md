@@ -3,7 +3,7 @@ layout: post
 title: "A discussion of Kuperberg's proof of the alternating sign matrix conjecture (presentation)"
 date: 2009-02-24
 permalink: /asm-conjecture/
-img: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Elementary_classroom_in_Alaska.jpg/640px-Elementary_classroom_in_Alaska.jpg
+img: https://upload.wikimedia.org/wikipedia/commons/0/0b/Alternating_Sign_Matrices_of_Size_3.svg
 published: true
 tags: ["performance audit", "vago", "report" ]
 ---

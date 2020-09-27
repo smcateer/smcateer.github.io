@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introduction to the Bethe Ansatz"
+title: "Introduction to the Bethe Ansatz (presentation)"
 date: 2010-08-13
 permalink: /intro-to-aba/
 img: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hans_Albrecht_Bethe_(1906-2005).jpg/898px-Hans_Albrecht_Bethe_(1906-2005).jpg

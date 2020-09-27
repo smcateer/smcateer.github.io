@@ -78,7 +78,7 @@ This post is a summary of the work I was involved with during by time with Austr
 * Goals: reduce AHT, reduce repeat calls, increase NPS
 * Tools: Google Cloud Platform, BigQuery, Tableau
 
-Presentations:
-* "Edward Tufte's philosophy on data viz"
-* "Scatter/density plots" - a method for visualizing correlations between continuous variables with both areas of low and high density ([see implementation examples here](https://stackoverflow.com/questions/20105364/how-can-i-make-a-scatter-plot-colored-by-density-in-matplotlib))
-* "Bootstrapping for parameter estimation"
+Technical presentations:
+* **Edward Tufte's philosophy on data viz** - I am a massive fan of [Tufte's work](https://www.edwardtufte.com/tufte/)
+* **Scatter-density plots** - a method for visualizing correlations between continuous variables with both areas of low and high density ([see implementation examples here](https://stackoverflow.com/questions/20105364/how-can-i-make-a-scatter-plot-colored-by-density-in-matplotlib))
+* **Bootstrapping for parameter estimation**

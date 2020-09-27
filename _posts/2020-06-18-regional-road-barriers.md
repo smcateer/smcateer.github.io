@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VAGO Report: Safety on Victoria's Roads - Regional Road Barriers"
+title: "Safety on Victoria's Roads - Regional Road Barriers (report)"
 date: 2020-06-18
 permalink: /regional-road-barriers/
 img: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Eastlink_first_day_open.jpg/640px-Eastlink_first_day_open.jpg

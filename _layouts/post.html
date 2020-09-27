@@ -6,8 +6,8 @@ layout: default
 
 <article class='page'>
   {% if page.img %}
-    <a href="{{ page.img_src }}">
-      <img src="{{ page.img }}" alt="{{ page.img_alt }}" style="float:right;width:450px;padding:5px;" />
+    <a href="{{ page.img }}">
+      <img src="{{ page.img }}" alt="Image source: {{ page.img }}" style="float:right;width:450px;padding:5px;" />
     </a>
   {% endif %}
   <div class="page-date"><small>{{ page.date | date: "%-d %B %Y" }}</small></div>

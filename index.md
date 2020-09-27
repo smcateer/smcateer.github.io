@@ -2,9 +2,8 @@
 layout: default
 Title: Welcome
 ---
+Test: {{site.posts[0].title}}
 <ul>
-
-</ul>
 
 Posts:
 {% for post in site.posts %}
@@ -15,3 +14,4 @@ Posts:
       </a>
 {% endfor %}
 
+</ul>

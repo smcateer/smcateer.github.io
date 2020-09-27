@@ -3,7 +3,7 @@ layout: post
 title: "Portfolio of work with Australia Post"
 date: 2019-07-29
 permalink: /aus-post-work/
-img: https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Night-Mail_1936_GPO_documentary_interior_TPO_sorting_carriage.jpg/640px-Night-Mail_1936_GPO_documentary_interior_TPO_sorting_carriage.jpg
+img: https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/2006-2013_Mercedes-Benz_Sprinter_(W_906)_SWB_van%2C_Australia_Post_(2018-11-22).jpg/640px-2006-2013_Mercedes-Benz_Sprinter_(W_906)_SWB_van%2C_Australia_Post_(2018-11-22).jpg
 published: true
 tags: ["australia post", "report" ]
 ---

@@ -8,7 +8,9 @@ published: true
 tags: ["australia post", "report" ]
 ---
 
-This post is a summary of the work I was involved with during by time with Australia Post. At some time in the future, I may provide more details on some of this work.
+Australia Post is a huge and hugely complicated orgaisation. They have amazing data (variety, volume, velicity, ...) and to be honest, I was still getting my head aroud it after almost 2 1/2 years working there!
+
+This post is a summary of the work I was involved with during by time with Australia Post.
 
 **StarTrack Regional Rates Dashboard**
 

@@ -2,7 +2,6 @@
 layout: default
 Title: Welcome
 ---
-Test: {{site.posts[0].title}}
 
 <article class='page'>
   {% if site.posts[0].img %}
@@ -17,9 +16,11 @@ Test: {{site.posts[0].title}}
   {{ site.posts[0].content }}
 </article>
 
-{% if page.tags %}
-  <p><small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small></p>
+{% if site.posts[0].tags %}
+  <p><small>tags: <em>{{ site.posts[0].tags | join: "</em> - <em>" }}</em></small></p>
 {% endif %}
+
+</hr>
 
 All posts:
 <ul>

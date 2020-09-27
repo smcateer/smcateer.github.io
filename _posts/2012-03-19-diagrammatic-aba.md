@@ -3,7 +3,7 @@ layout: post
 title: "The algebraic Bethe Ansatz - a diagrammatic approach (presentation)"
 date: 2012-03-19
 permalink: /diagrammatic-aba/
-img: https://upload.wikimedia.org/wikipedia/commons/c/ca/Levi_Civita_Diagrammatic.png
+img: https://upload.wikimedia.org/wikipedia/commons/8/8d/Penrose_ricci_identity.svg
 published: true
 tags: ["phd presentation", "presentation", "department preentation" ]
 ---

@@ -20,7 +20,7 @@ Title: Welcome
   <p><small>tags: <em>{{ site.posts[0].tags | join: "</em> - <em>" }}</em></small></p>
 {% endif %}
 
-</hr>
+<hr/>
 
 All posts:
 <ul>

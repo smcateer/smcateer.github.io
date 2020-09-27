@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "VAGO Report: Council Libraries"
+title: "Council Libraries (report)"
 date: 2019-11-13
 permalink: /council-libraries/
 img: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Mornington_Library.jpg/640px-Mornington_Library.jpg
 published: true
 tags: ["performance audit", "vago", "report" ]
 ---
+
+This report was tabled by the Victorian Auditor-General on 13 November 2019.
 
 > This audit assessed whether councils achieve value for money from their library services.
 >

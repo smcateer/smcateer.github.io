@@ -31,5 +31,3 @@ All posts:
         {{ post.title }}
       </a>
 {% endfor %}
-
-</ul>

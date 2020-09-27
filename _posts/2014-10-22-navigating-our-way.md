@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Royal Australian Navy: navigating our way into navigational data"
+title: "Royal Australian Navy: navigating our way into navigational data (presentation)"
 date: 2014-10-22
 permalink: /navigating-our-way/
 img: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/US_Navy_090721-N-9123L-010_Quartermaster_1st_Class_Jory_Mason_of_Chicago%2C_Ill._and_Royal_Australian_Navy_Seaman_Andrew_Smith_of_guided-missile_frigate_HMAS_Newcastle_(FFG_06)_review_a_chart_aboard_guided-missile_destroyer_USS_M.jpg/640px-thumbnail.jpg

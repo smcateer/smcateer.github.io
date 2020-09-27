@@ -3,6 +3,7 @@ layout: post
 title: "Unjamming as structural instability (honours thesis)"
 date: 2007-11-23
 permalink: /unjamming/
+img: https://upload.wikimedia.org/wikipedia/commons/d/d2/Stress_transmision.svg
 published: true
 tags: ["honours", "thesis", "applied mathematics", "granular materials", "publication", ]
 ---

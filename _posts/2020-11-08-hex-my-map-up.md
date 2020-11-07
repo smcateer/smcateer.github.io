@@ -3,7 +3,6 @@ layout: post
 title: "Hex my map up"
 date: 2020-11-08
 permalink: /hex-my-map-up/
-img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Hexagonal_tiling_2-1.svg/600px-Hexagonal_tiling_2-1.svg.png
 published: true
 tags: ["mapping", "hexagonal tiling", "hexagon", "data viz" ]
 ---
@@ -27,3 +26,5 @@ There's a bit to unpack here:
 * I have only tested this on a couple of Victorian regions ... it would be interesting to see what it looks like on onther geometries.
 
 The code (such as it is) can be foune [here](https://gist.github.com/smcateer/d810f397f39b4153f0a555d0363b488c). 100% happy for anyone who finds it useful to use it ... it would be great to hear from you if you do.
+
+(The bits that this code does, that I couldn't see in other libraries, it the bit in which the grid is automatically constructed to match the geometry of the original map, and the automatic allocation of geometries to tiles .. I get the feeling this tends to be done manually, but I am happy to be shown otherwise).

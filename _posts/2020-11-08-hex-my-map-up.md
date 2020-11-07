@@ -18,3 +18,12 @@ I had a bit of a hunt for a library that dies what I want, but I couldn't see qu
 
 ![Plot of Victoria's electorates as equal area hexagons.](../assets/img/hex_map.png "Plot of Victoria's electorates as equal area hexagons.")
 
+There's a bit to unpack here:
+
+* Why is Melbourne so far west? Well, if you think about how much population is east versus west of the CBD, and the wedge-shape of Victoria (with more area to the west), it makes sence that Melbourne is pushed west.
+* Coloured here, the regions (in Victoria, the lower house electorates, or "districts" roll-up into upper-house "regions") remain contiguous ... apart from the rural ones that get spread around the edge of the state. But then when you think about it, where *should* they be? They each cover wide stretches of the border of Victoria and touch many other regions.
+* Eyeballing the districts I know, it looks like the neighbouring ones have remained roughly neighbouring.
+* Overall, I think this is not a terrible representation, but I do think the algorithm for allocating the geometry (districts here) to hex tiles could use some tweaking.
+* I have only tested this on a couple of Victorian regions ... it would be interesting to see what it looks like on onther geometries.
+
+The code (such as it is) can be foune [here](https://gist.github.com/smcateer/d810f397f39b4153f0a555d0363b488c). 100% happy for anyone who finds it useful to use it ... it would be great to hear from you if you do.

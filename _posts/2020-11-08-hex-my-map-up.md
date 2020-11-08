@@ -28,3 +28,8 @@ There's a bit to unpack here:
 I am 100% happy for anyone who finds the code useful to use it ... it would be great to hear from you if you do. I would like to work it into a proper library. Some day.
 
 (The bits that this code does, that I couldn't see in other libraries, it the bit in which the grid is automatically constructed to match the geometry of the original map, and the automatic allocation of geometries to tiles .. I get the feeling this tends to be done manually, but I am happy to be shown otherwise).
+
+Bonus: Here are the federal electorates coloured by state (poor old SA got squished!):
+
+![Plot of Australia's's electorates as equal area hexagons.](../assets/img/hex_reg_aus.png "Plot of Australia's's electorates as equal area hexagons.")
+

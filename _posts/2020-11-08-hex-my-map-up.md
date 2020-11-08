@@ -32,4 +32,3 @@ I am 100% happy for anyone who finds the code useful to use it ... it would be g
 Bonus: Here are the federal electorates coloured by state (poor old SA got squished!):
 
 ![Plot of Australia's's electorates as equal area hexagons.](../assets/img/hex_reg_aus.png "Plot of Australia's's electorates as equal area hexagons.")
-

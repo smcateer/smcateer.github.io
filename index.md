@@ -6,7 +6,7 @@ Title: Welcome
 <article class='page'>
   {% if site.posts[0].img %}
     <a href="{{ site.posts[0].img }}">
-      <img src="{{ site.posts[0].img }}" alt="Image source: {{ site.posts[0].img }}" style="float:right;width:450px;padding:5px;" />
+      <img src="{{ site.posts[0].img }}" alt="Image source: {{ site.posts[0].img }}" style="float:right;width:450px;padding:10px;" />
     </a>
   {% endif %}
   <div class="page-date"><small>{{ site.posts[0].date | date: "%-d %B %Y" }}</small></div>

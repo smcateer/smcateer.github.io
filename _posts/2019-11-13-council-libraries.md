@@ -8,10 +8,6 @@ published: true
 tags: ["performance audit", "vago", "report" ]
 ---
 
-This report was tabled by the Victorian Auditor-General on 13 November 2019.
+In this audit, we used [data envelopment analysis](https://en.wikipedia.org/wiki/Data_envelopment_analysis) to investigate the efficiencies of council libraries. The inputs included library FTE and collection size, and outputs included number of loans, opening hours and program attendance. We were able to draw conclustions about the relative efficiencies of library service delivery models.
 
-> This audit assessed whether councils achieve value for money from their library services.
->
->We assessed how well selected library services plan, monitor and review their services to find service efficiencies and meet community needs. We also examined whether funding and investments into statewide library initiatives are supporting councils to improve their library services.
-
-[View the full report on the VAGO website](https://www.audit.vic.gov.au/report/council-libraries)
+[The report](https://www.audit.vic.gov.au/report/council-libraries) was tabled by the Victorian Auditor-General on 13 November 2019.

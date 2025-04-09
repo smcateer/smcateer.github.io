@@ -8,7 +8,7 @@ published: true
 tags: ["australia post", "report" ]
 ---
 
-Australia Post is a huge and hugely complicated orgaisation. They have amazing data (variety, volume, velicity, ...) and to be honest, I was still getting my head aroud it after almost 2 1/2 years working there!
+Australia Post is a huge and hugely complicated organisation. They have amazing data (variety, volume, velocity, ...) and to be honest, I was still getting my head around it after almost 2 1/2 years working there!
 
 This post is a summary of the work I was involved with during by time with Australia Post.
 
@@ -36,7 +36,7 @@ This post is a summary of the work I was involved with during by time with Austr
 **StarTrack Sales Opportunity Analysis**
 
 * Dashboard and analysis for monitoring the progress of sales *opportunities*
-* Created feedback-loop and enabled process imporvement
+* Created feedback-loop and enabled process improvement
 * Tools: SAP HANA, Tableau
 
 **Site Access and Leave Analysis**
@@ -76,7 +76,7 @@ This post is a summary of the work I was involved with during by time with Austr
 
 **Happy Parcels**
 
-* Development of dashboard to summarise parcel *happiness* (i.e. liklihood to experience delays &c.) for call centre agents
+* Development of dashboard to summarise parcel *happiness* (i.e. likelihood to experience delays &c.) for call centre agents
 * Goals: reduce AHT, reduce repeat calls, increase NPS
 * Tools: Google Cloud Platform, BigQuery, Tableau
 

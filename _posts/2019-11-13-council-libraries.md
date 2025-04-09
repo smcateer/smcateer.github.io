@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Council Libraries (performance audit report)"
+title: "Council Libraries (audit report)"
 date: 2019-11-13
 permalink: /council-libraries/
 img: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Mornington_Library.jpg/640px-Mornington_Library.jpg

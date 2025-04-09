@@ -2,7 +2,7 @@
 layout: post
 title: "Sexual Harassment in Local Government (audit report)"
 date: 2020-12-09
-permalink: /regional-road-barriers/
+permalink: /sexual-harassment-local-gov/
 img: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Melbourne_Town_Hall_October_2023.jpg/960px-Melbourne_Town_Hall_October_2023.jpg
 published: true
 tags: ["performance audit", "vago", "report", "survey", "dashboard" ]

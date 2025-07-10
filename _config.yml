@@ -4,3 +4,5 @@ description: Personal homepage of Stephen McAteer, record of projects, presentat
 show_downloads: false
 google_analytics: UA-22063677-2
 theme: minima
+minima:
+  style: auto

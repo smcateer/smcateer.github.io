@@ -5,4 +5,4 @@ show_downloads: false
 google_analytics: UA-22063677-2
 theme: minima
 minima:
-  style: auto
+  style: dark

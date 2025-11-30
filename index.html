@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean McAteer - Redirecting to Portfolio</title>
+
+    <!-- SEO-friendly canonical URL -->
+    <link rel="canonical" href="https://smcateer.github.io/portfolio/">
+
+    <!-- Instant redirect -->
+    <meta http-equiv="refresh" content="0; url=/portfolio/">
+
+    <!-- JS fallback -->
+    <script>
+      window.location.replace("/portfolio/");
+    </script>
+
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        text-align: center;
+        padding: 4rem 1rem;
+        color: #333;
+        background: #f6f8fa;
+      }
+      a {
+        color: #0366d6;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .spinner {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 3px solid rgba(0, 0, 0, 0.1);
+        border-top-color: #0366d6;
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;
+        margin-right: 0.5rem;
+        vertical-align: middle;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div role="status" aria-live="polite">
+      <p><span class="spinner" aria-hidden="true"></span>Redirecting to <a href="/portfolio/">smcateer.github.io/portfolio/</a>…</p>
+    </div>
+    <noscript>
+      <p><strong>JavaScript is disabled.</strong> Please <a href="/portfolio/">click here</a> to continue to the portfolio.</p>
+    </noscript>
+  </body>
+</html>
